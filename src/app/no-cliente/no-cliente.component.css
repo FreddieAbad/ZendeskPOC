@@ -1,0 +1,79 @@
+/* Contenedor del formulario */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f7f9fc; */
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  /* Estilo de los títulos */
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #10265c;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Grupo de formulario */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo de las etiquetas */
+  label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+  }
+  
+  /* Estilo de los campos de entrada */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #10265c;
+    outline: none;
+  }
+  
+  /* Estilo del botón de envío */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #ffdd04; /* Botón amarillo */
+    color: #10265c; /* Texto oscuro */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e6c904;
+  }
+  
+  /* Estilo del mensaje de éxito */
+  .success-message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    text-align: center;
+  }
+  

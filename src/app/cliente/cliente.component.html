@@ -1,0 +1,52 @@
+<!-- <div>
+    <h2>Consulta de Cliente</h2>
+    <form (ngSubmit)="consultarCliente()">
+      <label for="id">Identificación:</label>
+      <input id="id" [(ngModel)]="identificacion" name="identificacion" required>
+      
+      <label for="tipoId">Tipo de Identificación:</label>
+      <select id="tipoId" [(ngModel)]="tipoIdentificacion" name="tipoIdentificacion" required>
+        <option value="cedula">Cédula</option>
+        <option value="pasaporte">Pasaporte</option>
+      </select>
+      
+      <button type="submit">Consultar</button>
+    </form>
+    
+    <div *ngIf="clienteDatos">
+      <app-datos-cliente [cliente]="clienteDatos"></app-datos-cliente>
+    </div>
+  </div>
+   -->
+
+   <div class="form-container">
+    <h2>Consulta de Cliente</h2>
+    
+    <form (ngSubmit)="consultarCliente()" class="form-style">
+      <!-- Campo de Identificación -->
+      <div class="form-group">
+        <label for="id">Identificación:</label>
+        <input id="id" [(ngModel)]="identificacion" name="identificacion" required class="input-field">
+      </div>
+      
+      <!-- Campo de Tipo de Identificación -->
+      <div class="form-group">
+        <label for="tipoId">Tipo de Identificación:</label>
+        <select id="tipoId" [(ngModel)]="tipoIdentificacion" name="tipoIdentificacion" required class="input-field">
+          <option value="cedula">Cédula</option>
+          <option value="pasaporte">Pasaporte</option>
+        </select>
+      </div>
+      
+      <!-- Botón de Consultar -->
+      <div class="form-group">
+        <button type="submit" class="submit-btn">Consultar</button>
+      </div>
+    </form>
+  
+    <!-- Componente de datos del cliente -->
+    <div *ngIf="clienteDatos" class="cliente-info">
+      <app-datos-cliente [cliente]="clienteDatos"></app-datos-cliente>
+    </div>
+  </div>
+  

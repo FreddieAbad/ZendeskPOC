@@ -1,0 +1,55 @@
+/* Botones destacados */
+/* .cliente-selector button {
+    padding: 15px 25px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+    color: #10265c;
+} */
+
+.btn-cliente {
+    background-color: #ffdd04; /* Color de fondo solicitado para cliente */
+    padding: 15px 25px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+    color: #10265c;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.btn-no-cliente {
+    background-color: #10265c; /* Color de fondo solicitado para no cliente */
+    padding: 15px 25px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/* Cambia el color al pasar el mouse */
+.cliente-selector button:hover {
+    opacity: 0.9;
+}
+
+/* Diseño para secciones */
+.section-cliente, .section-no-cliente {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}

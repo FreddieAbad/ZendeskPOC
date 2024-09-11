@@ -1,0 +1,105 @@
+/* Contenedor general */
+.cliente-info {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Estilo de los títulos */
+  h2, h3, h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #10265c;
+  }
+  
+  /* Parrafos de información del cliente */
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  strong {
+    font-weight: 600;
+  }
+  
+  /* Lista de cuentas */
+  .cuentas-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  /* Enlaces para las cuentas */
+  .cuenta-link {
+    text-decoration: none;
+    color: #10265c;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .cuenta-link:hover {
+    color: #ffdd04;
+  }
+  
+  /* Lista de movimientos */
+  .movimientos-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  /* Estilo de los movimientos */
+  .movimientos-list li {
+    font-size: 16px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+
+
+
+
+
+
+
+
+
+  /* Lista de movimientos */
+.movimientos-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  /* Estilo de los movimientos */
+  .movimientos-list li {
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .movimientos-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilo del botón de enviar */
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ffdd04;
+    color: #10265c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e6c904;
+  }
+  

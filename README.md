@@ -1,27 +1,33 @@
-# BancoApp2
+# Proyecto de Consulta y Registro de Movimientos de Cliente
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+Este proyecto es una aplicación **Angular** que permite consultar y registrar movimientos financieros de un cliente. Los usuarios pueden seleccionar uno o varios movimientos, y enviar los movimientos seleccionados para su procesamiento.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Consultar los datos de un cliente, como nombre, tipo de cliente y contacto.
+- Visualizar las cuentas del cliente y sus movimientos.
+- Seleccionar uno o varios movimientos de las cuentas del cliente.
+- Enviar los movimientos seleccionados para su posterior procesamiento.
+  
+## Tecnologías Utilizadas
 
-## Code scaffolding
+- **Angular 15+**: Framework utilizado para la construcción de la interfaz de usuario.
+- **TypeScript**: Para el desarrollo de la lógica y el manejo de los datos.
+- **CSS**: Para los estilos personalizados de la interfaz.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Requisitos Previos
 
-## Build
+Antes de comenzar, asegúrate de tener instalado lo siguiente en tu máquina:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Node.js](https://nodejs.org/) (v14 o superior)
+- [npm](https://www.npmjs.com/) (v6 o superior)
+- [Angular CLI](https://angular.io/cli) (v15 o superior)
 
-## Running unit tests
+## Instalación
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
-## Running end-to-end tests
+1. Clona este repositorio en tu máquina local:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   git clone https://github.com/tu-usuario/proyecto-movimientos-cliente.git

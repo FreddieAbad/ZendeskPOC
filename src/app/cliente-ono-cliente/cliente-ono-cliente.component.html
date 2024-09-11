@@ -1,0 +1,36 @@
+<!-- <div>
+    <h1>¿Es usted cliente?</h1>
+    <button (click)="esCliente(true)">Soy Cliente</button>
+    <button (click)="esCliente(false)">No soy Cliente</button>
+  </div>
+  
+  <div *ngIf="cliente">
+    <app-cliente></app-cliente>
+  </div>
+  
+  <div *ngIf="!cliente && cliente !== null">
+    <app-no-cliente></app-no-cliente>
+  </div>
+   -->
+
+   <div>
+    <!-- Título claro -->
+    <h1>Selecciona el tipo de usuario</h1>
+    
+    <!-- Botones grandes y accesibles con atajos de teclado -->
+    <div class="cliente-selector">
+        <button (click)="esCliente(true)" accesskey="c" class="btn-cliente">Cliente (Alt + C)</button>
+        <button (click)="esCliente(false)" accesskey="n" class="btn-no-cliente">No Cliente (Alt + N)</button>
+    </div>
+</div>
+
+<!-- Sección para cliente -->
+<div *ngIf="cliente" class="section-cliente">
+    <!-- Aplicamos autoenfoque en el campo de identificación -->
+    <app-cliente></app-cliente>
+</div>
+
+<!-- Sección para no cliente -->
+<div *ngIf="!cliente && cliente !== null" class="section-no-cliente">
+    <app-no-cliente></app-no-cliente>
+</div>
